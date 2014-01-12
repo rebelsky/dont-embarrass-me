@@ -1,0 +1,91 @@
+/*
+ * A CSS Design for my C/*nix pages (plain)
+ */
+
+/* BODY 
+	The overall appearance is improved by adding some whitespace
+	at the left and right sides.  I also like white backgrounds.
+ */
+BODY {
+  margin-left: 6%;
+  margin-right: 4%;
+  color: black;
+  background-color: white;
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* HEADERS
+	I like to use a sans-serif font for my headers.
+ */
+H1, H2, H3 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(128,128,128);
+  background-color: white;
+}
+
+/* PAGENOTES
+	Notes at the bottom of the page should have less impact.  I 
+	increase the margin and set the font color to grey.
+ */
+DIV.pagenotes {
+  margin-left: 15%;
+  color: gray;
+  background-color: white;
+  font-size: small;
+}
+
+/* ADDRESS 
+	I like to see the author right-aligned
+ */
+ADDRESS {
+  text-align: right;
+}
+
+/* P.LINKS
+	I like to see the links in the header right in a sans-serif
+	font.
+ */
+P.links {
+  text-align: left;
+  font-size: small;
+  font-family: Helvetica, sans-serif;
+}
+
+/* P.TITLE
+   The site title at the right.
+ */
+P.title {
+  font-family: "Arial", "Helvetica", sans-serif; 
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: right;
+  color: white;
+  background-color: gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p.title a:link {
+  color: white;
+}
+
+p.title a:visited {
+  color: white;
+}
+
+/* DIV.HISTORY
+   Page history (which I like to include).
+ */
+div.history {
+  padding-top: 0.5em;
+  margin-left: 15%;
+  border-width: 0.1em 0em 0em 0.1em;
+  border-color: gray;
+  /* border-width: 0.1em; */
+  color: gray;
+  background-color: white;
+  font-size: small;
+}
+

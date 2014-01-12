@@ -1,0 +1,89 @@
+<section name="unix-intro" title="An Introduction to Thinking in *nix">
+
+Unix has survived in much the same form for decades.  (Okay, the
+internals are a lot different, but the terminal-based programmer/user
+interface is very similar, and most of the key tools have been around
+for nearly as long as there has been a Unix.)  Why has it done so well?
+Because there are some important principles that lie at the root of the
+design of *nix and the practice of *nix programming.
+
+you want to become a real Unix/Linux programmer.  What should you
+know?  What principles should you understand?  What practices should
+you follow?  There's a lot out there, but I'm going to focus on a few.
+You should also consider my <a href="programming-intro.html">general
+programming principles</a> and <a href="c-intro.html">C programming
+principles</a>, as the various principles interrelate a bit.
+
+<section name="core-principles" title="A Few Core Principles">
+
+What are some
+principles and practices that you should follow?  There are a lot of
+them, but here are a few that I find particularly useful
+
+<em>Don't do things by hand when you can do them more efficiently with
+a program.</em>  You're a programmer.  You know that computers are more
+efficient than humans.  You will often find that it takes less time to 
+write a program (or (ab)use a program) to do a task for you than to do
+the task yourself.
+
+<em>Write small programs and libraries that focus on a particular goal.</em>
+General programs can be great.  But as a *nix programmer, you should be used
+to using small building blocks to build bigger programs.  And it's 
+easier to use those blocks if you make them do one thing well.  Also,
+<em>don't forget to save your programs and libraries for future use</em>.
+The most efficient programmers I know have built (or identified) a huge 
+library of helper functions that they know and incorporate in their 
+programs.
+
+<em>Solve more complex problems by chaining together small programs.</em>
+If the small programs are good at solving focused problems, you will often
+find that you can merge them to do more complex things.  In *nix, we often
+chain programs together using pipes.
+
+<em>Share</em>.  One of the reasons *nix has lasted so long is that the
+programmers who use *nix believe in sharing their products and libraries
+(the applications, their source code, sample approaches, more).  Please
+do your best to support this important culture.
+
+</section>  <!-- core-principles -->
+
+<section name="by-code" title="Achieving goals by code">
+
+Okay, my first principle was effectively <q>Don't do things by hand
+when you can do them by code</q>.  So, how does a *nix programmer do
+things by code?
+
+* <em>Know what tools are available (or at least the primary tools)</em>.  
+  Most tasks are not new, and it is likely that someone has already solved
+  a similar problem and written (and shared) a tool that will help others.
+  So it helps to know what you can use.  You don't need to know all of
+  the tools.  You don't even have to know how to use many of the tools -
+  you can often figure things out with man pages or examples.  But you
+  can't use a tool unless you know it's there.  So take the time to 
+  learn what other programmers use.  (And yes, I'll provide a
+  <a href="tools.html">list of my favorite *nix tools</a>.)
+* <em>Learn a scripting language so that you can combine tools and
+  quickly throw together small programs.</em>  I tend to use Perl, because
+  I learned it long ago, but Ruby and Python (and others) are nice, too.
+  On occasion, I find it helpful to script directly in bash.
+* <em>Learn C so that you can build your own small, fast tools</em>.
+  Scripting languages are great.  But sometimes you want to do things
+  really really fast.  There are few programs faster than a well-engineered
+  small C program.  And even a not-so-great C program is likely to be
+  fast.
+
+Note that I started with tools, rather than programming.  You will find that
+you are most efficient when you can use tools to accomplish your tasks.
+(I list tools here because writing instructions for a command-line tool is a form of <q>coding</q>.)
+
+</section name="by-code">
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created.  Based on notes from an earlier talk on this subject, available
+  at <!--{<http://www.cs.grinnell.edu/~rebelsky/Courses/Cnix/2012S/Outlines/intro.html>}-->.
+
+</history>
+
+</section> <!-- unix-intro -->

@@ -1,0 +1,16 @@
+<section name="programming-intro" title="SamR's Programming Principles">
+
+<em>Placeholder.</em>
+
+* Learn a source code control system, like Subversion or git.
+* Pick a set of coding conventions and follow them.  (For C, I 
+  recommend <a href="http://www.gnu.org/prep/standards/standards.html#Formatting">the GNU formatting standards</a>.)
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created as a placeholder.
+
+</history>
+
+</section> <!-- programming-intro -->

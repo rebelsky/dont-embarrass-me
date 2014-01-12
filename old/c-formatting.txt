@@ -1,0 +1,12 @@
+<section name="c-formatting" title="Formatting your C code">
+
+<em>Placeholder.</em>
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created as a placeholder.
+
+</history>
+
+</section>

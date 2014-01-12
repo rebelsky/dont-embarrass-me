@@ -1,0 +1,49 @@
+<section name="books" title="Recommended Books and Other Readings">
+
+As I note in <a href="why.html">the introduction</a>, there are a host
+of useful books and articles on C and Unix/Linux.  Here are some of my
+favorites.
+
+<section name="starnix" title="Unix/Linux">
+
+<a name="raymond-taoup">
+Eric S. Raymond. 2003. The Art of UNIX Programming. Pearson Education.
+Available online at
+<!--{<http://www.catb.org/esr/writings/taoup/html/>}-->.
+</a>
+
+<blockquote>
+A really nice overview.  And available for free.  What else could you
+want?
+</blockquote>
+
+</section> <!-- starnix -->
+
+<section name="c" title="C">
+
+<a name="kandr">
+Brian W. Kernighan and Dennis M. Ritchie. 1988. <em>The C Programming
+Language</em> (2nd ed.). Prentice Hall Professional Technical Reference.
+</a>
+
+<blockquote>
+The ANSI-C edition of the book that introduced C.  To me, K&amp;R is close
+to a perfect text - it's concise, it's written by programmers for programmers,
+it's self-reflexive (in that you need to understand a bit of C to understand
+the examples that pepper the introductory chapters), and it's clear.  I
+teach our introductory C course with this book and, even though it's not
+designed for introductory students, and puzzles some, I think it's the
+right book.
+</blockquote>
+
+</section> <!-- c -->
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created.  First version includes only K&amp;R and Raymond's The Art
+  of Unix.  (And it doesn't same much about TAO Unix.)
+
+</history>
+
+</section> <!-- books -->

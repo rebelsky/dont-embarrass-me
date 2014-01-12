@@ -1,0 +1,29 @@
+<section name="unix-tools" title="*nix tools you should know">
+
+<em>NOTES!</em>
+
+I've said that one of the most important things you can do is to learn
+a core set of *nix tools.  Some you need to know how to use (at least the
+basics).  Others you only need to know that they exist, since you can
+read the man page.
+
+* <code>man</code> and <code>info</code>
+* A powerful text editor, preferably <code>vi</code> (also <code>vim</code>,
+  the mangled version of vi) or Emacs.
+* <code>sed</code>, the steam editor.
+* <code>tr</code>.
+* <code>od</code>.
+* <code>make</code>.
+
+You also need to know <a href="bash-basics.html">some basic scripting
+techniques in bash</a>, including pipes and I/O redirection.
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created first very rought draft.  Basically, an incomplete list of tools 
+  with a short introduction.
+
+</history>
+
+</section> <!-- unix-tools -->

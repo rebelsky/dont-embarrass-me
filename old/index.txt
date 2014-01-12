@@ -1,0 +1,41 @@
+<section title="Front Door">
+
+Welcome to <em>The Glimmer Guide to C and *nix</em>, also known as
+<em>Things SamR Expects Every Grinnell CS Graduate to Know About C
+and Unix/Linux</em>.  This evolving ebook contains selected thoughts and
+recommendations about programming in the Unix/Linux environment and
+programming in C.  
+
+<strong><em>Preface / Introduction</em></strong>
+* <a href="why.html">Why this book?</a>
+* <a href="glimmer.html">What is Glimmer?</a>
+
+<strong><em>Thinking in *nix</em></strong>
+* <a href="unix-intro.html">Introduction</a>
+
+<strong><em>Using Make</em></strong>
+
+<strong><em>Other Tools</em></strong>
+* Sed
+* Grep
+
+<strong><em>Better Programming in C</em></strong>
+* <a href="c-intro.html">Introduction</a>
+
+<strong><em>General Programming Issues</em></strong>
+* <a href="programming-intro.html">Introduction</a>
+* <a href="documenting.html">Documenting your code</a>
+
+<strong><em>Appendices</em></strong>
+* <a href="books.html">Other Recommended Books and EBooks</a>
+
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created.
+
+</history>
+
+</section> <!--  Front Door -->
+

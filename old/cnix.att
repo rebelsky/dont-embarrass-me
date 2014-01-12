@@ -1,0 +1,5 @@
+# Cnix SiteWeaver attribute file 
+
+prefix=cnix
+site=http://www.cs.grinnell.edu/~rebelsky/Cnix/
+name=The Glimmer Guide to C and *nix

@@ -1,0 +1,42 @@
+<section name="why" title="Introduction: Why This Book?">
+
+Does the world really need another book on C and/or Unix/Linux?
+No, probably not.  (It probably also doesn't need sentences
+with two slashes in a row.)  There are a host of excellent <a
+href="books.html">books</a> on both topics, from Kernighan and Ritchie's
+classic <em>The C Programming Language</em> to Eric Raymond's <em><a
+href="http://www.catb.org/esr/writings/taoup/html/">The Art of Unix
+Programming</a></em>.
+
+So, why am I writing yet another book on the subjects?  Well, I've
+observed that the students I higher for summer research or have in
+upper-level classes don't demonstrate the mastery of certain topics that
+I'd like, even though they've been using C since the second course and
+Linux since the first course.  They aren't facile with make and gdb.
+They don't rely on macros.  They are unaware of key compiling flags.
+I was tempted to title this book <q>Don't Embarass Me</q> (or <q>Don't
+Embarass Yourself</q>), but that seemed a bit harsh.  Nonethless, I don't
+think our students should leave Grinnell without better mastery of these
+topics.  And I certainly want my research students to know these things
+before they start working for me.
+
+So, what options are available to me to make sure that my students better
+reach the understanding they need?  I could send them to the books.
+I could create a short collection of excerpts (particularly of the
+materials that are released under Creative Commons or some similar
+license).  I could teach a one-credit course (and I am).  But I think
+my students, particularly my research students, would benefit from short
+summaries of my perspective on these topics.
+
+Well, that's enough of an introduction.  Let's get started.  I'd recommend
+that you begin with the introduction to the general Unix/Linux section or
+the introduction to the C section.
+
+<history>
+
+Sunday, 20 January 2013 [Samuel A. Rebelsky]
+* Created.
+
+</history>
+
+</section> <!-- why -->
