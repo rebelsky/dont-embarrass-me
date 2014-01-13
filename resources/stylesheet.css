@@ -1,0 +1,263 @@
+/*
+ * A simple design for "Don't Embarass Me".
+ */
+
+/* 
+ * Here's a nice overall appearance.  Some extra whitespace at the sides.  
+ * Mostly white.  Note that the 100px at the left is intended to be
+ * enough for the logo.
+ */
+BODY {  
+  margin-left: 6%;
+  margin-right: 4%; 
+  color: black;
+  background-color: white;
+  background-position: top left;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+}
+
+/* The head and the foot. */
+div.head {
+  background-color: rgb(232,232,232); 
+  border-bottom: thin solid black;
+}
+
+div.body {
+  background-color: rgb(240,240,240);
+}
+
+div.section {
+  background-color: rgb(240,240,240);
+}
+
+div.foot {  
+  border-top: solid black;
+  border-bottom: thin solid black;
+  background-color: rgb(232,232,232); 
+  border-width: 3px 0em 0em 5px;
+  margin-top: 5px;
+  padding-right: 0.2em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+}
+
+/* Have some fun with my headers */
+H1, H2, H3 { 
+  color: white;
+  background-color: gray;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  /* border: solid silver; */
+  /* margin-left: -0.7em;  */
+  padding-left: 0.2em;
+  padding-top: 0.2em; 
+  border-top: 10px solid white;
+}
+
+H1 {
+  /* border-width: 6px 0em 0em 5px; */
+  font-size: 1.4em;
+  text-align: center;
+  /* border-bottom: thick solid white; */
+}
+
+H2 {
+  border-width: 4px 0em 0em 5px;
+  font-size: 1.2em;
+}
+
+H3 {
+  border-width: 2px 0em 0em 5px;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+P {
+}
+
+/* The collection of links that appear at the top and bottom of each page. */
+p.links {
+  text-align: left;
+  font-size: small;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+}
+
+/* The search form that appears at the top and bottom of each page. */
+form.search {
+  text-align: right;
+  font-size: small;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding: 0pt;
+}
+
+HR {
+  width: 50%;
+  text-align: right;
+  color: maroon;
+  background-color: white;
+}
+HR.history {
+  width: 50%;
+  text-align: right;
+}
+
+DT {
+  font-weight: bold;
+}
+
+SPAN.guimenu {
+  font-weight: bold;
+  font-size: small;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(224,224,224);
+}
+SPAN.guimenuitem {
+  font-weight: bold;
+  font-size: small;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(224,224,224);
+}
+
+SPAN.uimenu {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+SPAN.uimenuitem {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+SPAN.uibutton {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  background-color: silver;
+}
+
+SPAN.uiwindow {
+  font-family: Helvetica, sans-serif;
+}
+
+SPAN.uikey {
+  font-family: Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+DIV.NOPRINT {
+  margin-bottom: 0px;
+} 
+
+P.invisible {
+  font-size: 1px;
+}
+
+
+DIV.shortversion {
+  border: solid silver;
+  border-width: 2px 2px 2px 2px;
+}
+
+DIV.code {
+  color: black;
+  background-color: silver;
+}
+
+KBD {
+  font-weight: bold;
+}
+
+SPAN.schemeresult {
+  color: RGB(32,0,127);
+  background-color: silver;
+}
+
+SPAN.schemeerror {
+  color: red;
+  background-color: silver;
+}
+
+SPAN.errortext {
+  color: red;
+}
+
+PRE {
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 5px;
+}
+
+PRE.screen {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: black;
+  color: black;
+  background-color: transparent;
+  padding: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+TD PRE.screen {
+  border-width: 1px;
+  border-style: dashed;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 5px;
+}
+
+PRE.programlisting {
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
+  color: black;
+  background-color: rgb(224,224,224);
+  padding: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+DIV.literallayout {
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
+  color: black;
+  background-color: rgb(224,224,224);
+  padding: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+TD {
+  border: 1px solid #A0A0A0;
+  vertical-align: top;
+}
+
+TD PRE.programlisting {
+  border-style: double;
+  border-width: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding: 5px;
+}
+
+SPAN.guibutton {
+  background-color: rgb(224,224,224);
+  border-color: rgb(192,192,192);
+  border-style: ridge;
+  border-width: 2px;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: small;
+  font-family: Helvetica, sans-serif;
+} 
+
+P.copyright {
+  font-size: small;
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+
+my $info = join(" ", @ARGV);
+system("echo \"$info\" | ul ");
+print "\n";
+print <<"BODY";
+*A placeholder*
+
+**Summary**: ...
+
+**Prerequisites**: ...
+
+- - -
+
+- - -
+
+For further reading
+-------------------
+
+Exercises
+---------
+
+BODY
